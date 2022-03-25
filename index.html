@@ -15,6 +15,20 @@
 	<!-- Link to the stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<title>Work</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W74N2ZL6VF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W74N2ZL6VF');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <!-- All of the visible code in the page belongs in the body tag -->
@@ -37,8 +51,10 @@
 	<!-- Every page should have a main tag for accessibility -->
 	<main>
 		
-		   <h1>Hi, I am Pratik Mangtani</h1>
+		  
            <div class="introduction" >
+			
+			<h1>Hi, I am Pratik Mangtani</h1>
 			   <div class="introduction_text">
 				I am a product designer and developer. 
 			   <br>
@@ -63,39 +79,44 @@
 
 		   </div>
 
-   
 
 
 		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
-		<div id="worksection">
+		<section id="worksection" class="projects">
 			<h2>My work</h2>
 			<br>
-			<div class="cards">
-				<a href = "hwp.html">
-					<img class="cover_image" alt="cover image" src="images/cover1.png">
-					<h3>Human Wisdom Program</h3>
-					UX Design | Development <br>
-					An E-learning app for mental health and self awareness.
-				</a>
+			<div class="mywork">
+				<div class="cards">
+					<a href = "hwp.html">
+						<img class="cover_image" alt="cover image" src="images/cover1.png">
+						<h3>Human Wisdom Program</h3>
+						UX Design | Development <br>
+						An E-learning app for mental health and self awareness.
+					</a>
+				</div>
+				<div class="cards">
+					<a href="beyond_barcode.html">
+						<img class="cover_image"  alt="cover image" src="images/cover2.png">
+						<h3>Beyond Barcode</h3>
+						UX Design <br>
+						A solution to educate consumers about toxic ingredients in products.
+					</a>
+				</div>
 			</div>
-			<div class="cards">
-				<a href="beyond_barcode.html">
-					<img class="cover_image"  alt="cover image" src="images/cover2.png">
-					<h3>Beyond Barcode</h3>
-					UX Design <br>
-					A solution to educate consumers about toxic ingredients in products.
-				</a>
-		</div>
+			
 
 
-
-		</div>
+		</section>
 
 	</main>
 
 	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>
 		<p>Pratik Mangtani &copy; 2022</p>
+		
+			<a href="https://www.linkedin.com/in/pratikmangtani">
+				<i class="fa fa-linkedin linkedin" style="color:#ffffff"></i>
+			</a>
 	</footer>
 </body>
 </html>
